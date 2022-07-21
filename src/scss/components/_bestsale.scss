@@ -1,0 +1,35 @@
+.bestsale{
+    &-item{
+        &-inner{
+            &_top{
+                margin-bottom: 1rem;
+                overflow: hidden;
+                img{
+                    transform: scale(1);
+                    transition: all 0.3s ease;
+                    
+                }
+                &:hover img{
+                    transform: scale(1.1);
+                }
+            }
+            &_bottom{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                h3{
+                    font-size:  1.5rem;
+                }
+                span{
+                    margin-bottom: 1rem;
+                }
+                .btn{
+                    margin-bottom: 1rem;
+                    border-color: var(--border-color);
+                    color: var(--text-color);
+                }
+            }
+        }
+    }
+}

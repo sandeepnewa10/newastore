@@ -1,0 +1,28 @@
+.product-wrap{ 
+    &__widget{  
+        h3{
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+        }
+        ul{
+            padding-left: 0;
+            list-style: none;
+            li{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                margin-bottom: 0.5rem;
+                figure{
+                    width: 25%;
+                    max-width: 100%;
+                    padding-right: 1rem;
+                }
+                figcaption{
+                    h4{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+}

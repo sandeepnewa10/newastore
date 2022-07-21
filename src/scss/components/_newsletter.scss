@@ -1,0 +1,23 @@
+.newsletter{
+    &__inner{
+        max-width: 600px;
+        margin:  0 auto;
+        span{
+            margin-bottom: 1rem;
+        }
+        .form-control{
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            padding-left: 1.5rem;
+            border: 1px solid rgb(85, 85, 85);
+            @media (max-width: 575.98px) {
+                padding-left: 0.5rem;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
+input[type="text"] {
+    text-align: left;
+}
